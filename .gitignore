@@ -1,0 +1,16 @@
+*.py[co]
+*.sw[nop]
+*~
+.cache
+.project
+.settings
+.vscode
+TAGS
+configs/demo-secrets.js
+coverage
+node_modules
+npm-debug.log
+packaging/config.sh
+pki
+reports
+photos
