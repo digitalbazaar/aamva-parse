@@ -45,6 +45,7 @@ describe('parse test', () => {
       }
       should.exist(err);
       err.message.should.equal(
-        'Failed to parse the mandatory fields: "dob", "docId", "expires".');
+        'Failed to parse the mandatory fields: "dob", "docId", "expires", ' +
+          '"issuerState".');
     });
 });
