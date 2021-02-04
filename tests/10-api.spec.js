@@ -1,3 +1,6 @@
+/*!
+ * Copyright (c) 2021 Digital Bazaar, Inc. All rights reserved.
+ */
 import {parse} from '..';
 import fs from 'fs';
 import path from 'path';
