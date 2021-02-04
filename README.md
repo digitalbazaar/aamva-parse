@@ -35,7 +35,7 @@ import {parse} from '@digitalbazaar/aamva-parse';
 const t = parse({text: scannedText});
 
 // Example output
-// t -> { dob: '19581031', docId: '123456-789', expiration:'20211031', issuerState: 'WY' }
+// t -> { dob: '10311958', docId: '123456-789', expiration:'10312021', issuerState: 'WY' }
 ```
 
 ## Contribute
