@@ -28,6 +28,7 @@ describe('parse test', () => {
         file.dob.should.be.a('string');
         file.docId.should.be.a('string');
         file.expiration.should.be.a('string');
+        file.issuerState.should.be.a('string');
         successes++;
       }
     });
